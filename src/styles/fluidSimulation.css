@@ -1,0 +1,15 @@
+/* الحاوية الخلفية الثابتة للموقع بالكامل */
+#neon-cursor-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    /* خلف كل محتوى الموقع والأزرار */
+    background-color: #000000;
+    /* الخلفية السوداء لإبراز النيون */
+    pointer-events: none;
+    /* حاسمة جداً: تسمح للضغطات وحركة الماوس بالوصول للعناصر الأمامية */
+    overflow: hidden;
+}
